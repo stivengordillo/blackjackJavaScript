@@ -1,0 +1,46 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background:green;
+    padding:0px;
+    margin:0px;
+}
+header{
+    background:black;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+img{
+    display: block;
+    margin:10px auto;
+    width:90%;
+    max-width:200px;
+}
+.botones{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+}
+.carts, .carts2{
+    position:relative;
+    display:flex;
+    justify-content: center;
+}
+.carts img, .carts2 img{
+    position:absolute;
+}
+.player{
+    min-height:400px;
+}
+.player p{
+    padding:10px;
+    border-radius:10px;
+    background-color:white;
+    display: flex;
+    max-width:95%;
+    margin:0 auto;
+
+    justify-content: space-between;
+}
